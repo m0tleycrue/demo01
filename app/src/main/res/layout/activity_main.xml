@@ -10,13 +10,13 @@
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="00:00:00"
+            android:text="@string/_00_00_00"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" android:id="@+id/timeText" android:textSize="60sp"/>
     <Button
-            android:text="START"
+            android:text="@string/start"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/start" android:layout_marginTop="32dp"
@@ -24,7 +24,7 @@
             android:layout_marginStart="32dp" app:layout_constraintEnd_toStartOf="@+id/stop"
             android:layout_marginEnd="32dp"/>
     <Button
-            android:text="STOP"
+            android:text="@string/stop"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/stop" android:layout_marginTop="32dp"
@@ -32,7 +32,7 @@
             app:layout_constraintStart_toEndOf="@+id/start" app:layout_constraintEnd_toStartOf="@+id/reset"
             android:layout_marginEnd="32dp"/>
     <Button
-            android:text="RESET"
+            android:text="@string/reset"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/reset" android:layout_marginTop="32dp"
