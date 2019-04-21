@@ -10,3 +10,4 @@
 https://github.com/m0tleycrue/demo01/blob/master/app/src/main/java/org/example/stopwatch/MainActivity.kt
 
 # レイアウト
+https://github.com/m0tleycrue/demo01/blob/master/app/src/main/res/layout/activity_main.xml
